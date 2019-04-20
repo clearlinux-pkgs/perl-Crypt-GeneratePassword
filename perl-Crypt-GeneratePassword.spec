@@ -4,7 +4,7 @@
 #
 Name     : perl-Crypt-GeneratePassword
 Version  : 0.05
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Crypt-GeneratePassword-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Crypt-GeneratePassword-0.05.tar.gz
 Summary  : 'generate secure random pronounceable passwords'
@@ -22,6 +22,7 @@ generate secure random pronounceable passwords
 Summary: dev components for the perl-Crypt-GeneratePassword package.
 Group: Development
 Provides: perl-Crypt-GeneratePassword-devel = %{version}-%{release}
+Requires: perl-Crypt-GeneratePassword = %{version}-%{release}
 
 %description dev
 dev components for the perl-Crypt-GeneratePassword package.
