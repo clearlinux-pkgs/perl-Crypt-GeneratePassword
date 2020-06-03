@@ -4,7 +4,7 @@
 #
 Name     : perl-Crypt-GeneratePassword
 Version  : 0.05
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Crypt-GeneratePassword-0.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEILB/Crypt-GeneratePassword-0.05.tar.gz
 Summary  : 'generate secure random pronounceable passwords'
@@ -97,6 +97,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Crypt/GeneratePassword.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Crypt/GeneratePassword/de.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Crypt/GeneratePassword/en.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Crypt/GeneratePassword.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Crypt/GeneratePassword/de.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Crypt/GeneratePassword/en.pm
